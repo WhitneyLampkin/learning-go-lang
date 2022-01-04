@@ -12,6 +12,8 @@ import (
 	"math"
 	"os"
 	"strconv"
+
+	"github.com/whitneylampkin/calculator"
 )
 
 func main() {
@@ -41,6 +43,11 @@ func main() {
 	fmt.Println("Sum2 (Discarding mul):", sum2)
 
 	pointerParametervalues()
+
+	// Using local packages and modules
+	total := calculator.Sum(3, 5)
+	fmt.Println(total)
+	fmt.Println("Version: ", calculator.Version)
 }
 
 /*
