@@ -28,6 +28,7 @@ func main() {
 	mostCommonVariableDeclaration()
 	declaringVariables()
 	initializingVariables()
+	integerDataType()
 }
 
 func mostCommonVariableDeclaration() {
@@ -89,4 +90,29 @@ func initializingVariables() {
 		firstNameJohn3, lastNameDoe3, age34 = "John", "Doe", 34
 	)
 	println(firstNameJohn3, lastNameDoe3, age34)
+}
+
+func integerDataType() {
+	// Various integer types
+	var integer8 int8 = 127
+	var integer16 int16 = 32767
+	var integer32 int32 = 2147483647
+	var integer64 int64 = 9223372036854775807
+	fmt.Println(integer8, integer16, integer32, integer64)
+
+	/*
+		- The following code throws an error because the two types don't match.
+		- Must explicitly define the new type.
+
+		var integer16 int16 = 127
+			var integer32 int32 = 32767
+			fmt.Println(integer16 + integer32)
+		}
+
+		Throws the following error: invalid operation: integer16 + integer32 (mismatched types int16 and int32)
+	*/
+
+	// Runes: "A rune is simply an alias for int32 data type. It's used to represent a Unicode character (or a Unicode code point)."
+	rune := 'G'
+	fmt.Println(rune)
 }
