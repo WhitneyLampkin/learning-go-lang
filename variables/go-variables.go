@@ -2,6 +2,19 @@ package variables
 
 import "fmt"
 
+/*
+	Variables: The following code will throw an error because variables are declared but not used.
+
+	func main() {
+		firstName, lastName := "John", "Doe"
+		age := 32
+	}
+
+	./main.go:4:2: firstName declared but not used
+	./main.go:4:13: lastName declared but not used
+	./main.go:5:2: age declared but not used
+*/
+
 func MostCommonVariableDeclaration() {
 	firstName, lastName := "John", "Doe"
 	age := 32
