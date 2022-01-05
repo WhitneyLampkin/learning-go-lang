@@ -42,3 +42,23 @@ func CompoundIfStatements() {
 func givemeanumber() int {
 	return -1
 }
+
+func SwitchStatements() {
+
+}
+
+func SwitchMultipleExpressions() {
+
+}
+
+func SwitchInvokeFunction() {
+
+}
+
+func OmitConditions() {
+
+}
+
+func SwitchBreaks() {
+
+}

@@ -60,4 +60,9 @@ func main() {
 	fmt.Println("***Control Flow***")
 	controlflows.IfStatements()
 	controlflows.CompoundIfStatements()
+	controlflows.SwitchStatements()
+	controlflows.SwitchMultipleExpressions()
+	controlflows.SwitchInvokeFunction()
+	controlflows.OmitConditions()
+	controlflows.SwitchBreaks()
 }
