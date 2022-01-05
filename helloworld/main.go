@@ -1,15 +1,10 @@
 package main
 
-/*
-	fmt
-	math
-	os - command-line arguments
-	strconv - string conversations
-*/
-
 import (
 	"fmt"
 	"os"
+
+	"rsc.io/quote"
 
 	"github.com/whitneylampkin/learning-go-lang/calculator"
 	"github.com/whitneylampkin/learning-go-lang/datatypes"
@@ -24,6 +19,9 @@ func main() {
 	total := calculator.Sum(3, 5)
 	fmt.Println(total)
 	fmt.Println("Version: ", calculator.Version)
+
+	// Referencing 3rd-party packages
+	fmt.Println(quote.Hello())
 
 	variables.MostCommonVariableDeclaration()
 	variables.DeclaringVariables()
