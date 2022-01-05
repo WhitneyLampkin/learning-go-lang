@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"os"
 
-	"rsc.io/quote"
-
 	"github.com/whitneylampkin/learning-go-lang/calculator"
 	"github.com/whitneylampkin/learning-go-lang/datatypes"
 	"github.com/whitneylampkin/learning-go-lang/functions"
 	"github.com/whitneylampkin/learning-go-lang/variables"
+
+	"rsc.io/quote"
 )
 
 func main() {
