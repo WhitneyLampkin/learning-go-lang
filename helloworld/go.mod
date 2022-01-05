@@ -16,3 +16,8 @@ replace github.com/whitneylampkin/learning-go-lang/variables => ../variables
 require github.com/whitneylampkin/learning-go-lang/datatypes v0.0.0
 
 replace github.com/whitneylampkin/learning-go-lang/datatypes => ../datatypes
+
+// functions package
+require github.com/whitneylampkin/learning-go-lang/functions v0.0.0
+
+replace github.com/whitneylampkin/learning-go-lang/functions => ../functions
