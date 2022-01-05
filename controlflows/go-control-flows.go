@@ -1,6 +1,10 @@
 package controlflows
 
-import "fmt"
+import (
+	"fmt"
+	"math/rand"
+	"time"
+)
 
 // If statements do not need ().
 // Ternary if statements are not supported.
@@ -43,8 +47,22 @@ func givemeanumber() int {
 	return -1
 }
 
+// If you run the following code several times, you'll see a different output every time. (But if you run the code in the Go Playground, you'll get the same result every time. That's one of the service's limitations.
 func SwitchStatements() {
+	sec := time.Now().Unix()
+	rand.Seed(sec)
+	i := rand.Int31n(10)
 
+	switch i {
+	case 0:
+		fmt.Print("zero...")
+	case 1:
+		fmt.Print("one...")
+	case 2:
+		fmt.Print("two...")
+	}
+
+	fmt.Println("ok")
 }
 
 func SwitchMultipleExpressions() {
