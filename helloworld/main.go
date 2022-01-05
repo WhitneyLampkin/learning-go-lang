@@ -12,10 +12,17 @@ import (
 	"math"
 	"os"
 	"strconv"
+
+	"github.com/whitneylampkin/learning-go-lang/calculator"
 )
 
 func main() {
 	fmt.Println("Hello World!")
+
+	// Referencing a local package
+	total := calculator.Sum(3, 5)
+	fmt.Println(total)
+	fmt.Println("Version: ", calculator.Version)
 
 	mostCommonVariableDeclaration()
 	declaringVariables()
