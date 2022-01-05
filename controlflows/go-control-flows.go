@@ -9,6 +9,10 @@ func IfStatements() {
 	if x%2 == 0 {
 		fmt.Println(x, "is even")
 	}
+
+	if x%2 != 0 {
+		fmt.Println(x, "is odd")
+	}
 }
 
 /*
