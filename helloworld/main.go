@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"rsc.io/quote"
+	"quote"
 
 	"github.com/whitneylampkin/learning-go-lang/calculator"
 	"github.com/whitneylampkin/learning-go-lang/datatypes"
