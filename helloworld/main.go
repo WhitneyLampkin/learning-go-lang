@@ -5,6 +5,7 @@ import (
 	"os"
 
 	"github.com/whitneylampkin/learning-go-lang/calculator"
+	"github.com/whitneylampkin/learning-go-lang/controlflows"
 	"github.com/whitneylampkin/learning-go-lang/datatypes"
 	"github.com/whitneylampkin/learning-go-lang/functions"
 	"github.com/whitneylampkin/learning-go-lang/variables"
@@ -16,13 +17,17 @@ func main() {
 	fmt.Println("Hello World!")
 
 	// Referencing a local package
+	fmt.Println("\rReferening a local package\r")
 	total := calculator.Sum(3, 5)
 	fmt.Println(total)
 	fmt.Println("Version: ", calculator.Version)
 
 	// Referencing 3rd-party packages
+	fmt.Println("\rReferencing 3rd party packages\r")
 	fmt.Println(quote.Hello())
 
+	// Variables, datatypes and functions
+	fmt.Println("\rVariables, datatypes and functions\r")
 	variables.MostCommonVariableDeclaration()
 	variables.DeclaringVariables()
 	variables.InitializingVariables()
@@ -34,17 +39,25 @@ func main() {
 	functions.MainFunctions()
 
 	// Calling customSumFunction()
+	fmt.Println("\rCalling custom functions\r")
 	sum := functions.CustomSumFunction(os.Args[1], os.Args[2])
 	println("Sum with a custom function:", sum)
 
 	// Calling returnMultipleValues()
+	fmt.Println("\rReturning multiple values\r")
 	sum, mul := functions.ReturnMultipleValues(os.Args[1], os.Args[2])
 	fmt.Println("Sum:", sum)
 	fmt.Println("Mul:", mul)
 
 	// Discarding variables
+	fmt.Println("\rDiscarding variables\r")
 	sum2, _ := functions.ReturnMultipleValues(os.Args[1], os.Args[2])
 	fmt.Println("Sum2 (Discarding mul):", sum2)
 
 	functions.PointerParametervalues()
+
+	// Control Flow
+	fmt.Println("\rControl Flow\r")
+	controlflows.IfStatements()
+	controlflows.CompoundIfStatements()
 }
