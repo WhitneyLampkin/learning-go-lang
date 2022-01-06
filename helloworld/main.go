@@ -17,7 +17,7 @@ func main() {
 	fmt.Println("Hello World!")
 
 	// Referencing a local package
-	fmt.Println("***Referening a local package***")
+	fmt.Println("***Referencing a local package***")
 	total := calculator.Sum(3, 5)
 	fmt.Println(total)
 	fmt.Println("Version: ", calculator.Version)
@@ -63,6 +63,7 @@ func main() {
 	controlflows.SwitchStatements()
 	controlflows.SwitchMultipleExpressions()
 	controlflows.SwitchInvokeFunction()
+	controlflows.SwitchRegEx()
 	controlflows.OmitConditions()
 	controlflows.SwitchBreaks()
 }
