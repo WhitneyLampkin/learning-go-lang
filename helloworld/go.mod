@@ -5,7 +5,7 @@ go 1.17
 //calculator package
 require (
 	github.com/whitneylampkin/learning-go-lang/calculator v0.0.0
-    github.com/whitneylampkin/learning-go-lang/controlflows v0.0.0
+	github.com/whitneylampkin/learning-go-lang/controlflows v0.0.0
 	github.com/whitneylampkin/learning-go-lang/datatypes v0.0.0
 	github.com/whitneylampkin/learning-go-lang/forloops v0.0.0
 	github.com/whitneylampkin/learning-go-lang/functions v0.0.0
@@ -20,7 +20,7 @@ require (
 
 replace (
 	github.com/whitneylampkin/learning-go-lang/calculator => ../calculator
-    github.com/whitneylampkin/learning-go-lang/controlflows => ../controlflows
+	github.com/whitneylampkin/learning-go-lang/controlflows => ../controlflows
 	github.com/whitneylampkin/learning-go-lang/datatypes => ../datatypes
 	github.com/whitneylampkin/learning-go-lang/forloops => ../forloops
 	github.com/whitneylampkin/learning-go-lang/functions => ../functions

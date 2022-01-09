@@ -7,6 +7,7 @@ import (
 	"github.com/whitneylampkin/learning-go-lang/calculator"
 	"github.com/whitneylampkin/learning-go-lang/controlflows"
 	"github.com/whitneylampkin/learning-go-lang/datatypes"
+	"github.com/whitneylampkin/learning-go-lang/forloops"
 	"github.com/whitneylampkin/learning-go-lang/functions"
 	"github.com/whitneylampkin/learning-go-lang/variables"
 
@@ -66,4 +67,7 @@ func main() {
 	controlflows.SwitchRegEx()
 	controlflows.OmitConditions()
 	controlflows.SwitchBreaks()
+
+	// Forloops
+	forloops.BasicForLoop()
 }
