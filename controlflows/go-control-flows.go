@@ -143,6 +143,6 @@ func SwitchBreaks() {
 		fmt.Printf("%d is greater than 100\n", num)
 		fallthrough
 	case num < 200:
-		fmt.Printf("%d is less than 200", num)
+		fmt.Printf("%d is less than 200\n", num)
 	}
 }
