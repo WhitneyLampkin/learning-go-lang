@@ -2,16 +2,13 @@ package main
 
 import (
 	"fmt"
+	"learning-go-lang/calculator"
+	"learning-go-lang/controlflows"
+	"learning-go-lang/datatypes"
+	"learning-go-lang/forloops"
+	"learning-go-lang/functions"
+	"learning-go-lang/variables"
 	"os"
-
-	"github.com/whitneylampkin/learning-go-lang/calculator"
-	"github.com/whitneylampkin/learning-go-lang/controlflows"
-	"github.com/whitneylampkin/learning-go-lang/datatypes"
-	"github.com/whitneylampkin/learning-go-lang/forloops"
-	"github.com/whitneylampkin/learning-go-lang/functions"
-	"github.com/whitneylampkin/learning-go-lang/variables"
-
-	"rsc.io/quote"
 )
 
 func main() {
@@ -25,7 +22,7 @@ func main() {
 
 	// Referencing 3rd-party packages
 	fmt.Println("***Referencing 3rd party packages***")
-	fmt.Println(quote.Hello())
+	//fmt.Println(quote.Hello())
 
 	// Variables, datatypes and functions
 	fmt.Println("***Variables, datatypes and functions***")
