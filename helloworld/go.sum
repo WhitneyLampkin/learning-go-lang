@@ -1,5 +1,12 @@
-golang.org/x/text v0.0.0-20170915032832-14c0d48ead0c/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=
-rsc.io/quote v1.5.2 h1:w5fcysjrx7yqtD/aO+QwRjYZOKnaM9Uh2b40tElTs3Y=
-rsc.io/quote v1.5.2/go.mod h1:LzX7hefJvL54yjefDEDHNONDjII0t9xZLPXsUe+TKr0=
-rsc.io/sampler v1.3.0 h1:7uVkIFmeBqHfdjD+gZwtXXI+RODJ2Wc4O7MPEh/QiW4=
-rsc.io/sampler v1.3.0/go.mod h1:T1hPZKmBbMNahiBKFy5HrXp6adAjACjK9JXDnKaTXpA=
+github.com/whitneylampkin/learning-go-lang/calculator v0.0.0-20220110025819-b2f2154bdf6a h1:WeWoMHi3NKG3QrEPt7omcq/h+N8I5f0cgBUpmk6IEKQ=
+github.com/whitneylampkin/learning-go-lang/calculator v0.0.0-20220110025819-b2f2154bdf6a/go.mod h1:NsaZI+I2j2P6Ew1JEve+wECQkMZUWyr7XwIENkVZvt8=
+github.com/whitneylampkin/learning-go-lang/controlflows v0.0.0-20220110025819-b2f2154bdf6a h1:1jovYNbENmmvUWvQrm5lo/J+Ab37IZbQkhTTARIrgN4=
+github.com/whitneylampkin/learning-go-lang/controlflows v0.0.0-20220110025819-b2f2154bdf6a/go.mod h1:b4/TL9lqFN7yyAyNjrzblAcsitXC4qcynfeKizKizik=
+github.com/whitneylampkin/learning-go-lang/datatypes v0.0.0-20220110025819-b2f2154bdf6a h1:urqkEbfjFz+B4oKJO3j+XZErkvN07O5hmQ7Xpf5s77Q=
+github.com/whitneylampkin/learning-go-lang/datatypes v0.0.0-20220110025819-b2f2154bdf6a/go.mod h1:EhY0nBIsRf7IRNhCrUq7icBL+JoWf9497kh3WI0NB0U=
+github.com/whitneylampkin/learning-go-lang/forloops v0.0.0-20220110025819-b2f2154bdf6a h1:8K64I2fql3N7opczRgiuyqL4mVp8AQ8ZLI40D6rTgfU=
+github.com/whitneylampkin/learning-go-lang/forloops v0.0.0-20220110025819-b2f2154bdf6a/go.mod h1:NiWXgpR07VK5oelUX8F6TEjsCOguZRMbPHL1EwTJYk4=
+github.com/whitneylampkin/learning-go-lang/functions v0.0.0-20220110025819-b2f2154bdf6a h1:ROLr2/hRzQRbtW1DEDcdyiUlLsCkBsVmEfh9ber9XOY=
+github.com/whitneylampkin/learning-go-lang/functions v0.0.0-20220110025819-b2f2154bdf6a/go.mod h1:rA9lJtG/eqWoiJx5aiU93ewCf7Iz/3Vk/8B/j6LBx0I=
+github.com/whitneylampkin/learning-go-lang/variables v0.0.0-20220110025819-b2f2154bdf6a h1:U+XDnL7GWMr1B4GyqY8zp6p+y0xCatgDgAOkH7EQ6ks=
+github.com/whitneylampkin/learning-go-lang/variables v0.0.0-20220110025819-b2f2154bdf6a/go.mod h1:bn1VgEFvDAgd/s3xqItml14gg5xql0tka/Wb+eXHKW4=
