@@ -7,7 +7,6 @@ import (
 	"github.com/whitneylampkin/learning-go-lang/calculator"
 	"github.com/whitneylampkin/learning-go-lang/controlflows"
 	"github.com/whitneylampkin/learning-go-lang/datatypes"
-	"github.com/whitneylampkin/learning-go-lang/fizzbuzz"
 	"github.com/whitneylampkin/learning-go-lang/forloops"
 	"github.com/whitneylampkin/learning-go-lang/functions"
 	"github.com/whitneylampkin/learning-go-lang/variables"
@@ -76,6 +75,64 @@ func main() {
 	forloops.FakeWhileLoop()
 	forloops.InfiniteLoop()
 
-	// FizzBuzz Challenge
-	fizzbuzz.Fizzbuzz()
+	// Challenge: FizzBuzz
+	Fizzbuzz()
+
+	// Challenge: Find the primes (under 20)
+	fmt.Println("Prime numbers less than 20:")
+
+	for number := 2; number < 20; number++ {
+		if findprimes(number) == true {
+			fmt.Printf("%v ", number)
+		}
+	}
+
+	// Challenge: Ask for a number, panic if negative
+	val := 0
+	fmt.Print("\r\nEnter number: ")
+	fmt.Scanf("%d", &val)
+
+	switch {
+	case val < 0:
+		panic("The program is crashing because you entered a negative number.")
+	case val > 0:
+		fmt.Println("You entered:", val)
+	case val == 0:
+		fmt.Println("0 is neither negative nor positive")
+
+	}
+}
+
+func Fizzbuzz() {
+	for i := 1; i <= 100; i++ {
+		// TODO: Use switch case instead
+		// Could also use i%15 for the first case
+		if i%3 == 0 && i%5 == 0 {
+			fmt.Println(i)
+			fmt.Println(" - FizzBuzz")
+		}
+		if i%3 == 0 && i%5 != 0 {
+			fmt.Println(i)
+			fmt.Println(" - Fizz")
+		}
+		if i%3 != 0 && i%5 == 0 {
+			fmt.Println(i)
+			fmt.Println(" - Buzz")
+		}
+	}
+
+}
+
+func findprimes(number int) bool {
+	for i := 2; i < number; i++ {
+		if number%i == 0 {
+			return false
+		}
+	}
+
+	if number > 1 {
+		return true
+	} else {
+		return false
+	}
 }
