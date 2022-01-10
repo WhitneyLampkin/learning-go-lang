@@ -2,7 +2,9 @@ package controlflows
 
 import (
 	"fmt"
+	"io"
 	"math/rand"
+	"os"
 	"regexp"
 	"time"
 )
@@ -145,4 +147,61 @@ func SwitchBreaks() {
 	case num < 200:
 		fmt.Printf("%d is less than 200\n", num)
 	}
+}
+
+// The next 3 control flows are unique to Go.
+
+// Defer: runs after all code in the current funtion finishes
+// Multiple defers can be used but they run in the reverse order.
+func DeferExample() {
+	// Example 1
+	for i := 1; i <= 4; i++ {
+		defer fmt.Println("deferred", -i)
+		fmt.Println("regular", i)
+	}
+
+	// Example 2: Closing a file after use.
+	newfile, error := os.Create("learnGo.txt")
+	if error != nil {
+		fmt.Println("Error: Could not create file.")
+		return
+	}
+	defer newfile.Close()
+
+	if _, error = io.WriteString(newfile, "Learning Go!"); error != nil {
+		fmt.Println("Error: Could not write to file.")
+		return
+	}
+
+	newfile.Sync()
+}
+
+// Panic: used when errors aren't expected.
+func PanicHighLowExample() {
+	highlow(2, 0)
+	fmt.Println("Program finished successfully!")
+}
+
+func highlow(high int, low int) {
+	if high < low {
+		fmt.Println("Panic!")
+		panic("highlow() low greater than high")
+	}
+	defer fmt.Println("Deferred: highlow(", high, ",", low, ")")
+	fmt.Println("Call: highlow(", high, ",", low, ")")
+
+	highlow(high, low+1)
+}
+
+// Recover: used to avoid a program crash.
+func RecoverExample() {
+	defer func() {
+		handler := recover()
+		if handler != nil {
+			fmt.Println("main(): recover", handler)
+		}
+	}()
+
+	highlow(2, 0)
+	fmt.Println("Program finished successfully!")
 }

@@ -65,7 +65,13 @@ func main() {
 	controlflows.SwitchRegEx()
 	controlflows.OmitConditions()
 	controlflows.SwitchBreaks()
+	controlflows.DeferExample()
+	// The next line is commented out because it's stops execution.
+	// controlflows.PanicHighLowExample()
+	controlflows.RecoverExample()
 
 	// Forloops
 	forloops.BasicForLoop()
+	forloops.FakeWhileLoop()
+	forloops.InfiniteLoop()
 }
