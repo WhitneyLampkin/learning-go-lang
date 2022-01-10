@@ -2,13 +2,14 @@ package main
 
 import (
 	"fmt"
-	"learning-go-lang/calculator"
-	"learning-go-lang/controlflows"
-	"learning-go-lang/datatypes"
-	"learning-go-lang/forloops"
-	"learning-go-lang/functions"
-	"learning-go-lang/variables"
 	"os"
+
+	"github.com/whitneylampkin/learning-go-lang/calculator"
+	"github.com/whitneylampkin/learning-go-lang/controlflows"
+	"github.com/whitneylampkin/learning-go-lang/datatypes"
+	"github.com/whitneylampkin/learning-go-lang/forloops"
+	"github.com/whitneylampkin/learning-go-lang/functions"
+	"github.com/whitneylampkin/learning-go-lang/variables"
 )
 
 func main() {
