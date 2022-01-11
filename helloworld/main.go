@@ -101,6 +101,9 @@ func main() {
 		fmt.Println("0 is neither negative nor positive")
 
 	}
+
+	// Declaring Arrays
+	DeclareArrays()
 }
 
 func Fizzbuzz() {
@@ -135,4 +138,16 @@ func findprimes(number int) bool {
 	} else {
 		return false
 	}
+}
+
+func DeclareArrays() {
+	var a [3]int
+	a[1] = 10
+	fmt.Println(a[0])
+	fmt.Println(a[1])
+	fmt.Println(a[len(a)-1])
+}
+
+func InitializingArrays() {
+
 }
