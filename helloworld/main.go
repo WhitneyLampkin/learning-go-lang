@@ -2,18 +2,21 @@ package main
 
 import (
 	"fmt"
-	"os"
+	/*
 
-	"github.com/whitneylampkin/learning-go-lang/calculator"
-	"github.com/whitneylampkin/learning-go-lang/controlflows"
-	"github.com/whitneylampkin/learning-go-lang/datatypes"
-	"github.com/whitneylampkin/learning-go-lang/forloops"
-	"github.com/whitneylampkin/learning-go-lang/functions"
-	"github.com/whitneylampkin/learning-go-lang/variables"
-)
+		Uncomment to use all of the functions in main()
+
+		"os"
+
+		"github.com/whitneylampkin/learning-go-lang/calculator"
+		"github.com/whitneylampkin/learning-go-lang/controlflows"
+		"github.com/whitneylampkin/learning-go-lang/datatypes"
+		"github.com/whitneylampkin/learning-go-lang/forloops"
+		"github.com/whitneylampkin/learning-go-lang/functions"
+		"github.com/whitneylampkin/learning-go-lang/variables" */)
 
 func main() {
-	fmt.Println("Hello World!")
+	/* fmt.Println("Hello World!")
 
 	// Referencing a local package
 	fmt.Println("***Referencing a local package***")
@@ -100,10 +103,14 @@ func main() {
 	case val == 0:
 		fmt.Println("0 is neither negative nor positive")
 
-	}
+	} */
 
-	// Declaring Arrays
+	// Arrays
 	DeclareArrays()
+	InitializingArrays()
+	EllipsisInArrays()
+	ArrayLastPositionOnly()
+	MultidimentionalArrays()
 }
 
 func Fizzbuzz() {
@@ -149,5 +156,31 @@ func DeclareArrays() {
 }
 
 func InitializingArrays() {
+	cities := [5]string{"New York", "Paris", "Berlin", "Madrid"}
+	fmt.Println("Cities:", cities)
+}
 
+func EllipsisInArrays() {
+	cities2 := [...]string{"New York", "Paris", "Berlin", "Madrid"}
+	fmt.Println("Cities 2:", cities2)
+}
+
+// Initializing an array in this way will create an array with a length of 100
+// Only the last position will have a value set. The others will default to 0, which is the default for type int.
+func ArrayLastPositionOnly() {
+	numbers := [...]int{99: -1}
+	fmt.Println("First Position:", numbers[0])
+	fmt.Println("Last Position:", numbers[99])
+	fmt.Println("Length:", len(numbers))
+}
+
+func MultidimentionalArrays() {
+	var twoD [3][5]int
+	for i := 0; i < 3; i++ {
+		for j := 0; j < 5; j++ {
+			twoD[i][j] = (i + 1) * (j + 1)
+		}
+		fmt.Println("Row", i, twoD[i])
+	}
+	fmt.Println("\nAll at once:", twoD)
 }
