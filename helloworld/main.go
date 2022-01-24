@@ -110,7 +110,7 @@ func main() {
 	InitializingArrays()
 	EllipsisInArrays()
 	ArrayLastPositionOnly()
-	MultidimentionalArrays()
+	MultidimensionalArrays()
 }
 
 func Fizzbuzz() {
@@ -174,7 +174,7 @@ func ArrayLastPositionOnly() {
 	fmt.Println("Length:", len(numbers))
 }
 
-func MultidimentionalArrays() {
+func MultidimensionalArrays() {
 	var twoD [3][5]int
 	for i := 0; i < 3; i++ {
 		for j := 0; j < 5; j++ {
