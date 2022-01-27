@@ -3,21 +3,18 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	/*
+	"os"
 
-		Uncomment to use all of the functions in main()
-
-		"os"
-
-		"github.com/whitneylampkin/learning-go-lang/calculator"
-		"github.com/whitneylampkin/learning-go-lang/controlflows"
-		"github.com/whitneylampkin/learning-go-lang/datatypes"
-		"github.com/whitneylampkin/learning-go-lang/forloops"
-		"github.com/whitneylampkin/learning-go-lang/functions"
-		"github.com/whitneylampkin/learning-go-lang/variables" */)
+	"github.com/whitneylampkin/learning-go-lang/calculator"
+	"github.com/whitneylampkin/learning-go-lang/controlflows"
+	"github.com/whitneylampkin/learning-go-lang/datatypes"
+	"github.com/whitneylampkin/learning-go-lang/forloops"
+	"github.com/whitneylampkin/learning-go-lang/functions"
+	"github.com/whitneylampkin/learning-go-lang/variables"
+)
 
 func main() {
-	/* fmt.Println("Hello World!")
+	fmt.Println("Hello World!")
 
 	// Referencing a local package
 	fmt.Println("***Referencing a local package***")
@@ -120,7 +117,6 @@ func main() {
 	CopySliceItems()
 	CopySliceItemsFixed()
 
-
 	DeclareAndInitializeMaps()
 	AddMapItems()
 	// Uncomment next line to see the error message
@@ -132,8 +128,6 @@ func main() {
 	DeclareAndInitializeStructs()
 	EmbeddingStructs()
 	EncodeDecodeStructsJSON()
-
-	*/
 
 	CalculateFibonacci()
 	//TranslateRomanNumerals()
