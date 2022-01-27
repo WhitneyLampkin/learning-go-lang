@@ -11,3 +11,5 @@ require (
 	github.com/whitneylampkin/learning-go-lang/functions v0.0.0-20220127150741-25e069030c11
 	github.com/whitneylampkin/learning-go-lang/variables v0.0.0-20220127150741-25e069030c11
 )
+
+require github.com/whitneylampkin/learning-go-lang/challenges v0.0.0-20220127161440-5b4ba1b617bc // indirect

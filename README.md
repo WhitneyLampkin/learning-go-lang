@@ -16,3 +16,4 @@
 
 1. Be mindful of where packages/modules are created in the directory
 1. Be sure to open the scr folder from the correct $GOPATH path (This can break imports.)
+1. Use 'go build' to automatically add all dependencies to go.mod
