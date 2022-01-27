@@ -51,6 +51,7 @@ func CalculateFibonacci() {
 	userInput := 6
 
 	if userInput < 2 {
+		fmt.Print("\r\n")
 		fmt.Println(make([]int, 0))
 	}
 
@@ -62,6 +63,7 @@ func CalculateFibonacci() {
 		fibonacciSequence[i] = fibonacciSequence[i-1] + fibonacciSequence[i-2]
 	}
 
+	fmt.Print("\r\n")
 	fmt.Println(fibonacciSequence)
 }
 

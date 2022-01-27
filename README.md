@@ -1,5 +1,9 @@
 # README.md
 
+## About
+
+Repository to store code snippets and notes from the following Microsoft Learn learning path: https://docs.microsoft.com/en-us/learn/paths/go-first-steps/.
+
 ## Topics
 
 1. Introduction
