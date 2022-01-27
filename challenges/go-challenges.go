@@ -46,13 +46,12 @@ func PanicChallenges() {
 	}
 }
 
-func CalculateFibonacci() []int {
+func CalculateFibonacci() {
 	// Get users input
 	userInput := 6
 
 	if userInput < 2 {
 		fmt.Println(make([]int, 0))
-		return make([]int, 0)
 	}
 
 	fibonacciSequence := make([]int, userInput)
@@ -64,8 +63,6 @@ func CalculateFibonacci() []int {
 	}
 
 	fmt.Println(fibonacciSequence)
-
-	return fibonacciSequence
 }
 
 /* func TranslateRomanNumerals() {

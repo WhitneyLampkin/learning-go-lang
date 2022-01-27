@@ -1,3 +1,5 @@
+github.com/whitneylampkin/learning-go-lang/arrays v0.0.0-20220127215354-6fc2c39ec05e h1:NpZt5LFZr6nPt5oTQBucyCsVmSDjAj7dbbW2X0Ns6us=
+github.com/whitneylampkin/learning-go-lang/arrays v0.0.0-20220127215354-6fc2c39ec05e/go.mod h1:B0jMe0sXehtMNe6ZG2tgwL7/3nc20563ETJtawEjG+Q=
 github.com/whitneylampkin/learning-go-lang/calculator v0.0.0-20220127150741-25e069030c11 h1:8KJSjsXCA4/JJrldgTcBvfpTfmBw1k0x2UPdwgWPqds=
 github.com/whitneylampkin/learning-go-lang/calculator v0.0.0-20220127150741-25e069030c11/go.mod h1:NsaZI+I2j2P6Ew1JEve+wECQkMZUWyr7XwIENkVZvt8=
 github.com/whitneylampkin/learning-go-lang/challenges v0.0.0-20220127161440-5b4ba1b617bc h1:ZZhh6CYR09g9kfp2Et+He38qJObajhisLgOTVvwL/YU=
@@ -12,5 +14,11 @@ github.com/whitneylampkin/learning-go-lang/forloops v0.0.0-20220127150741-25e069
 github.com/whitneylampkin/learning-go-lang/forloops v0.0.0-20220127150741-25e069030c11/go.mod h1:NiWXgpR07VK5oelUX8F6TEjsCOguZRMbPHL1EwTJYk4=
 github.com/whitneylampkin/learning-go-lang/functions v0.0.0-20220127150741-25e069030c11 h1:mwfw7y/Nkt1RklgY/DEfgnzO0vQx0GA3HEXD4Ydjr3U=
 github.com/whitneylampkin/learning-go-lang/functions v0.0.0-20220127150741-25e069030c11/go.mod h1:rA9lJtG/eqWoiJx5aiU93ewCf7Iz/3Vk/8B/j6LBx0I=
+github.com/whitneylampkin/learning-go-lang/maps v0.0.0-20220127215354-6fc2c39ec05e h1:Nm330f/LVWfgefnLMQB8nzzjN44Se+CL1Av1PTD9wTg=
+github.com/whitneylampkin/learning-go-lang/maps v0.0.0-20220127215354-6fc2c39ec05e/go.mod h1:1z4fepzIks5VZbo0dCZO/WPDBKnLff5OC3HZe8EC9PM=
+github.com/whitneylampkin/learning-go-lang/slices v0.0.0-20220127215354-6fc2c39ec05e h1:sfFAEGt5ES+n7diAUUePuYna33gwTP9WvYXO2dRBncs=
+github.com/whitneylampkin/learning-go-lang/slices v0.0.0-20220127215354-6fc2c39ec05e/go.mod h1:E9MenA9MlyVyvwrWs8I/gBeI2J1sapruy1rjD/6mIHM=
+github.com/whitneylampkin/learning-go-lang/structs v0.0.0-20220127215354-6fc2c39ec05e h1:Yhez4eZ134JrLOBZVr4MkEdRWvql++EC3IysR/oe0z4=
+github.com/whitneylampkin/learning-go-lang/structs v0.0.0-20220127215354-6fc2c39ec05e/go.mod h1:5pVy3xKXeYll3adGbhaJ1pps7Ws0dJKNX/tcd65mrsc=
 github.com/whitneylampkin/learning-go-lang/variables v0.0.0-20220127150741-25e069030c11 h1:BkX5e+RA2ok+5KnZXSwXrkql7ub1kmtUdbRfCSNdvIE=
 github.com/whitneylampkin/learning-go-lang/variables v0.0.0-20220127150741-25e069030c11/go.mod h1:bn1VgEFvDAgd/s3xqItml14gg5xql0tka/Wb+eXHKW4=
