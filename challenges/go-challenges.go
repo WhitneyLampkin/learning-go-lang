@@ -45,3 +45,55 @@ func PanicChallenges() {
 		fmt.Println("0 is neither negative nor positive")
 	}
 }
+
+func CalculateFibonacci() []int {
+	// Get users input
+	userInput := 6
+
+	if userInput < 2 {
+		fmt.Println(make([]int, 0))
+		return make([]int, 0)
+	}
+
+	fibonacciSequence := make([]int, userInput)
+
+	fibonacciSequence[0], fibonacciSequence[1] = 1, 1
+
+	for i := 2; i < userInput; i++ {
+		fibonacciSequence[i] = fibonacciSequence[i-1] + fibonacciSequence[i-2]
+	}
+
+	fmt.Println(fibonacciSequence)
+
+	return fibonacciSequence
+}
+
+/* func TranslateRomanNumerals() {
+	romanNumbers := map[rune]int{
+		'M': 1000,
+		'D': 500,
+		'C': 100,
+		'L': 50,
+		'X': 10,
+		'V': 5,
+		'I': 1,
+	}
+
+	// Get user input
+	userInput := "MCLX"
+
+	var sum int
+
+	// Sum user input
+	for i := 0; i < len(userInput); i++ {
+		value, exist := romanNumbers[userInput[i]]
+
+		if exist {
+			sum += value
+		} else {
+			panic("Invalid roman numeral value entered.")
+		}
+	}
+
+	fmt.Println("Roman Number Sum: ", sum)
+} */
