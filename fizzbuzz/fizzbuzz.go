@@ -14,5 +14,4 @@ func Fizzbuzz() {
 			fmt.Println("Buzz")
 		}
 	}
-
 }
