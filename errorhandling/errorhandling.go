@@ -1,5 +1,15 @@
 package errorhandling
 
+/*
+
+Always check for errors, even if you don't expect them. Then handle them properly to avoid exposing unnecessary information to end users.
+Include a prefix in an error message so you know the origin of the error. For example, you could include the name of the package and function.
+Create reusable error variables as much as you can.
+Understand the difference between using returning errors and panicking. Panic when there's nothing else you can do. For example, if a dependency isn't ready, it doesn't make sense for the program to work (unless you want to run a default behavior).
+Log errors with as many details as possible (we'll cover how in the next section) and print out errors that an end user can understand.
+
+*/
+
 import (
 	"errors"
 	"fmt"

@@ -9,7 +9,6 @@ import (
 	"github.com/whitneylampkin/learning-go-lang/challenges"
 	"github.com/whitneylampkin/learning-go-lang/controlflows"
 	"github.com/whitneylampkin/learning-go-lang/datatypes"
-	"github.com/whitneylampkin/learning-go-lang/errorhandling"
 	"github.com/whitneylampkin/learning-go-lang/fizzbuzz"
 	"github.com/whitneylampkin/learning-go-lang/forloops"
 	"github.com/whitneylampkin/learning-go-lang/functions"
@@ -125,5 +124,5 @@ func main() {
 	// challenges.TranslateRomanNumerals()
 
 	// Error handling
-	errorhandling.HandleError()
+	// errorhandling.HandleError()
 }
