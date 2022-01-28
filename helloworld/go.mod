@@ -16,3 +16,5 @@ require (
 	github.com/whitneylampkin/learning-go-lang/structs v0.0.0-20220127215354-6fc2c39ec05e
 	github.com/whitneylampkin/learning-go-lang/variables v0.0.0-20220127150741-25e069030c11
 )
+
+require github.com/whitneylampkin/learning-go-lang/errorhandling v0.0.0-20220127223337-b7d4abc6c6e3

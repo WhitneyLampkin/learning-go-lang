@@ -2,14 +2,14 @@ github.com/whitneylampkin/learning-go-lang/arrays v0.0.0-20220127215354-6fc2c39e
 github.com/whitneylampkin/learning-go-lang/arrays v0.0.0-20220127215354-6fc2c39ec05e/go.mod h1:B0jMe0sXehtMNe6ZG2tgwL7/3nc20563ETJtawEjG+Q=
 github.com/whitneylampkin/learning-go-lang/calculator v0.0.0-20220127150741-25e069030c11 h1:8KJSjsXCA4/JJrldgTcBvfpTfmBw1k0x2UPdwgWPqds=
 github.com/whitneylampkin/learning-go-lang/calculator v0.0.0-20220127150741-25e069030c11/go.mod h1:NsaZI+I2j2P6Ew1JEve+wECQkMZUWyr7XwIENkVZvt8=
-github.com/whitneylampkin/learning-go-lang/challenges v0.0.0-20220127161440-5b4ba1b617bc h1:ZZhh6CYR09g9kfp2Et+He38qJObajhisLgOTVvwL/YU=
-github.com/whitneylampkin/learning-go-lang/challenges v0.0.0-20220127161440-5b4ba1b617bc/go.mod h1:vdmHB/lTsdyZfR4G5VafwviCjxWsQ60QADKhxG9Cp68=
 github.com/whitneylampkin/learning-go-lang/challenges v0.0.0-20220127215354-6fc2c39ec05e h1:IpQXmYdc4SWxzZs4n724NRuqkg3xbkKDiC3n4AKSJqA=
 github.com/whitneylampkin/learning-go-lang/challenges v0.0.0-20220127215354-6fc2c39ec05e/go.mod h1:vdmHB/lTsdyZfR4G5VafwviCjxWsQ60QADKhxG9Cp68=
 github.com/whitneylampkin/learning-go-lang/controlflows v0.0.0-20220127150741-25e069030c11 h1:4+uQsbi6M8S7ACiutdKFpwjTCBxwJk5CxIkxQiqj4PI=
 github.com/whitneylampkin/learning-go-lang/controlflows v0.0.0-20220127150741-25e069030c11/go.mod h1:b4/TL9lqFN7yyAyNjrzblAcsitXC4qcynfeKizKizik=
 github.com/whitneylampkin/learning-go-lang/datatypes v0.0.0-20220127150741-25e069030c11 h1:XGBoszfEKqDOwgWvDCRKIwOa1Z0KRdNgcvucuvemkiY=
 github.com/whitneylampkin/learning-go-lang/datatypes v0.0.0-20220127150741-25e069030c11/go.mod h1:EhY0nBIsRf7IRNhCrUq7icBL+JoWf9497kh3WI0NB0U=
+github.com/whitneylampkin/learning-go-lang/errorhandling v0.0.0-20220127223337-b7d4abc6c6e3 h1:lmR9JM+kxGZ3sG6Rpt5HI0NhQLjw0QELzg/zFOSbaeI=
+github.com/whitneylampkin/learning-go-lang/errorhandling v0.0.0-20220127223337-b7d4abc6c6e3/go.mod h1:msXun5ZyaB56zRyxDE33CE9aTVnQVgYMlcA/xe62THc=
 github.com/whitneylampkin/learning-go-lang/fizzbuzz v0.0.0-20220127150741-25e069030c11 h1:BTzENZXZAHeFkoFfzhKeWwCcBF/1ofshya1tlmvLJW8=
 github.com/whitneylampkin/learning-go-lang/fizzbuzz v0.0.0-20220127150741-25e069030c11/go.mod h1:zIImRHAFmPFSRsH7kzTNMjSZzLUrJn/aKB0NLGmJnHE=
 github.com/whitneylampkin/learning-go-lang/forloops v0.0.0-20220127150741-25e069030c11 h1:4Ktn4ZdwEnOOt6q8EaueWVk8rC/lHthYhlpiRQsSGCc=
