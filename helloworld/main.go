@@ -13,6 +13,7 @@ import (
 	"github.com/whitneylampkin/learning-go-lang/fizzbuzz"
 	"github.com/whitneylampkin/learning-go-lang/forloops"
 	"github.com/whitneylampkin/learning-go-lang/functions"
+	"github.com/whitneylampkin/learning-go-lang/logging"
 	"github.com/whitneylampkin/learning-go-lang/maps"
 	"github.com/whitneylampkin/learning-go-lang/slices"
 	"github.com/whitneylampkin/learning-go-lang/structs"
@@ -126,4 +127,7 @@ func main() {
 
 	// Error handling
 	errorhandling.HandleError()
+
+	// Logging
+	logging.Test()
 }

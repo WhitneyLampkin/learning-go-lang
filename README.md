@@ -91,3 +91,11 @@ Repository to store code snippets and notes from the following Microsoft Learn l
     - go get -u github.com/whitneylampkin/learning-go-lang/[FOLDER]@master
 1. [ISSUE] go run main.go resulted in error: ".\main.go:128:2: undefined: errorhandling.HandleError"
     - [SOLUTION] go clean -modcache --> go build --> go run main.go
+1. Adding new packages to an EXISTING project.
+    - Create new folder
+    - Add *.go file w/ "package [PACKAGE_NAME]" as the first line
+    - cd into the package's directory
+    - Create a module for the package with "go mod init [PACKAGE_NAME]
+    - "go mod tidy"
+    - Go to project's directory
+        - go get [PACKAGE_NAME] to download the package

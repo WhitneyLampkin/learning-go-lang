@@ -17,3 +17,5 @@ require (
 	github.com/whitneylampkin/learning-go-lang/structs v0.0.0-20220128005605-d457dfdb56e5
 	github.com/whitneylampkin/learning-go-lang/variables v0.0.0-20220128005605-d457dfdb56e5
 )
+
+require github.com/whitneylampkin/learning-go-lang v0.0.0-20220128151117-82d30591d831 // indirect
