@@ -129,5 +129,5 @@ func main() {
 	errorhandling.HandleError()
 
 	// Logging
-	logging.Test()
+	logging.LogStandardMsg()
 }

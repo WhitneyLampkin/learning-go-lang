@@ -1,7 +1,9 @@
 package logging
 
-import "fmt"
+import (
+	"log"
+)
 
-func Test() {
-	fmt.Println("Logging...")
+func LogStandardMsg() {
+	log.Print("\r\nHey, I'm a log!")
 }
