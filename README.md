@@ -8,8 +8,8 @@ Repository to store code snippets and notes from the following Microsoft Learn l
 
 1. cd helloworld
 1. go build
-1. go run main.go 1,2
-    - Note: One of the functions expects 2 int args to be passed as seen by "1,2" above, but any int values can be used.
+1. go run main.go [int] [int]
+    - Note: One of the functions expects 2 int args to be passed as seen by "[int] [int]" above. Replace these two place holders with real int values.
 
 ## Topics
 
@@ -99,3 +99,9 @@ Repository to store code snippets and notes from the following Microsoft Learn l
     - "go mod tidy"
     - Go to project's directory
         - go get [PACKAGE_NAME] to download the package
+    - [ISSUE] undefined error, AGAIN!
+    - go get [PACKAGE_NAME]@master
+        - Should update the go.sum and go.mod files
+    - Now go build should work without producing an error
+    - go run main.go 1 2 
+        - SUCCESS!!! YAY!
