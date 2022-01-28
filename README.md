@@ -82,3 +82,5 @@ Repository to store code snippets and notes from the following Microsoft Learn l
 1. Be sure to open the scr folder from the correct $GOPATH path (This can break imports.)
 1. Use 'go build' to automatically add all dependencies to go.mod
     - go get -u github.com/whitneylampkin/learning-go-lang/[FOLDER]@master
+1. [ISSUE] go run main.go resulted in error: ".\main.go:128:2: undefined: errorhandling.HandleError"
+    - [SOLUTION] go clean -modcache --> go build --> go run main.go
