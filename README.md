@@ -4,6 +4,13 @@
 
 Repository to store code snippets and notes from the following Microsoft Learn learning path: https://docs.microsoft.com/en-us/learn/paths/go-first-steps/.
 
+## Running the App
+
+1. cd helloworld
+1. go build
+1. go run main.go 1,2
+    - Note: One of the functions expects 2 int args to be passed as seen by "1,2" above, but any int values can be used.
+
 ## Topics
 
 1. Introduction
