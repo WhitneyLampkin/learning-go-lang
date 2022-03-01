@@ -29,7 +29,7 @@ func HandleError() {
 	employee, err := getInformationReusableErr(1001)
 	// errors.Is() -
 	if errors.Is(err, ErrNotFound) {
-		fmt.Printf("NOT FOUND: %v\n", err)
+		fmt.Printf("NOT FOUND: %v\n\r\n", err)
 	} else {
 		fmt.Print(employee)
 	}

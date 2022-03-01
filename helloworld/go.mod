@@ -12,7 +12,7 @@ require (
 	github.com/whitneylampkin/learning-go-lang/fizzbuzz v0.0.0-20220128005605-d457dfdb56e5
 	github.com/whitneylampkin/learning-go-lang/forloops v0.0.0-20220128005605-d457dfdb56e5
 	github.com/whitneylampkin/learning-go-lang/functions v0.0.0-20220128005605-d457dfdb56e5
-	github.com/whitneylampkin/learning-go-lang/logging v0.0.0-20220128152318-df24afd1cd62
+	github.com/whitneylampkin/learning-go-lang/logging v0.0.0-20220128162018-49fdd656ec9b
 	github.com/whitneylampkin/learning-go-lang/maps v0.0.0-20220128005605-d457dfdb56e5
 	github.com/whitneylampkin/learning-go-lang/slices v0.0.0-20220128005605-d457dfdb56e5
 	github.com/whitneylampkin/learning-go-lang/structs v0.0.0-20220128005605-d457dfdb56e5
