@@ -105,3 +105,4 @@ Repository to store code snippets and notes from the following Microsoft Learn l
     - Now go build should work without producing an error
     - `go run main.go 1 2`
         - SUCCESS!!! YAY!
+1. `go get -u` updates packages and their dependencies

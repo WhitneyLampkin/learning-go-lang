@@ -22,7 +22,7 @@ func LogFatalMsg() {
 func LogPanicMsg() {
 	// Provides similar functionality as LogFatalMsg()
 	// Panic provides the log message AND stacktrace
-	log.Panic("Hey, I'm an error log!")
+	// log.Panic("Hey, I'm an error log!")
 	fmt.Print("Can you see me?")
 }
 
