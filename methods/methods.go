@@ -7,6 +7,10 @@ func DeclareMethod() {
 	s := square{4}
 	fmt.Println("\r\nPerimeter (triangle):", t.perimeter())
 	fmt.Println("\r\nPerimeter (square):", s.perimeter())
+
+	t.doubleSize()
+	fmt.Println("Size:", t.size)
+	fmt.Println("Perimeter:", t.perimeter())
 }
 
 // Structs
@@ -28,4 +32,8 @@ func (t triangle) perimeter() int {
 // Go allows methods with the same name as long as the receivers are different.
 func (s square) perimeter() int {
 	return s.size * 4
+}
+
+func (t *triangle) doubleSize() {
+	t.size *= 2
 }
