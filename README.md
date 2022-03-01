@@ -87,21 +87,21 @@ Repository to store code snippets and notes from the following Microsoft Learn l
 
 1. Be mindful of where packages/modules are created in the directory
 1. Be sure to open the scr folder from the correct $GOPATH path (This can break imports.)
-1. Use 'go build' to automatically add all dependencies to go.mod
-    - go get -u github.com/whitneylampkin/learning-go-lang/[FOLDER]@master
-1. [ISSUE] go run main.go resulted in error: ".\main.go:128:2: undefined: errorhandling.HandleError"
-    - [SOLUTION] go clean -modcache --> go build --> go run main.go
+1. Use `go build` to automatically add all dependencies to go.mod
+    - `go get -u github.com/whitneylampkin/learning-go-lang/[FOLDER]@master`
+1. [ISSUE] `go run main.go` resulted in error: ".\main.go:128:2: undefined: errorhandling.HandleError"
+    - [SOLUTION] `go clean -modcache` --> `go build` --> `go run main.go`
 1. Adding new packages to an EXISTING project.
     - Create new folder
-    - Add *.go file w/ "package [PACKAGE_NAME]" as the first line
+    - Add *.go file w/ `package [PACKAGE_NAME]` as the first line
     - cd into the package's directory
-    - Create a module for the package with "go mod init [PACKAGE_NAME]
-    - "go mod tidy"
+    - Create a module for the package with `go mod init [PACKAGE_NAME]`
+    - `go mod tidy`
     - Go to project's directory
-        - go get [PACKAGE_NAME] to download the package
+        - `go get [PACKAGE_NAME]` to download the package
     - [ISSUE] undefined error, AGAIN!
-    - go get [PACKAGE_NAME]@master
+    - `go get [PACKAGE_NAME]@master`
         - Should update the go.sum and go.mod files
     - Now go build should work without producing an error
-    - go run main.go 1 2
+    - `go run main.go 1 2`
         - SUCCESS!!! YAY!

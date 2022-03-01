@@ -20,6 +20,8 @@ github.com/whitneylampkin/learning-go-lang/logging v0.0.0-20220128162018-49fdd65
 github.com/whitneylampkin/learning-go-lang/logging v0.0.0-20220128162018-49fdd656ec9b/go.mod h1:evUgpebyeRbAMDDYxJNA8ZGwLgV+7Vb+2RCKBwRq2+g=
 github.com/whitneylampkin/learning-go-lang/maps v0.0.0-20220128005605-d457dfdb56e5 h1:4R6z38bwOVzD2cxNXKPS8W5oyukw0hmlXrewjhLX7vY=
 github.com/whitneylampkin/learning-go-lang/maps v0.0.0-20220128005605-d457dfdb56e5/go.mod h1:1z4fepzIks5VZbo0dCZO/WPDBKnLff5OC3HZe8EC9PM=
+github.com/whitneylampkin/learning-go-lang/methods v0.0.0-20220301203914-60e922ee239a h1:qyGJkDIltBMaLS15qhyIIpmbloNKyuUxNP34LF2OgNg=
+github.com/whitneylampkin/learning-go-lang/methods v0.0.0-20220301203914-60e922ee239a/go.mod h1:YQrN/eZU5pvWCECjOFe05S/IMhd6+VxXHwl3tYaQNJo=
 github.com/whitneylampkin/learning-go-lang/slices v0.0.0-20220128005605-d457dfdb56e5 h1:z3Hf5M8n5eleVMFJ1lkyAIqQx62FZH0yb/hWD7422wc=
 github.com/whitneylampkin/learning-go-lang/slices v0.0.0-20220128005605-d457dfdb56e5/go.mod h1:E9MenA9MlyVyvwrWs8I/gBeI2J1sapruy1rjD/6mIHM=
 github.com/whitneylampkin/learning-go-lang/structs v0.0.0-20220128005605-d457dfdb56e5 h1:AQjHF13Ez8wDIwnPe+X30VkYowk0yQsVg2vq58hBCNQ=
