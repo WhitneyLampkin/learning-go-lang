@@ -4,8 +4,7 @@ import (
 	"fmt"
 	"log"
 	"os"
-
-	"github.com/rs/zerolog"
+	//"github.com/rs/zerolog"
 )
 
 func LogStandardMsg() {
@@ -47,18 +46,19 @@ func LogToFile() {
 }
 
 func LogWithFramework() {
-	zerolog.TimeFieldFormat = zerolog.TimeFormatUnix
-	log.Print("Hey! I'm a log message!")
-}
+	/* zerolog.TimeFieldFormat = zerolog.TimeFormatUnix
+		log.Print("Hey! I'm a log message!")
+	}
 
-func LogWithContext() {
-	zerolog.TimeFieldFormat = zerolog.TimeFormatUnix
+	func LogWithContext() {
+		/* zerolog.TimeFieldFormat = zerolog.TimeFormatUnix
 
-	zerolog.log.Debug().
-		Int("EmployeeID", 1001).
-		Msg("Getting employee information")
+		zerolog.log.Debug().
+			Int("EmployeeID", 1001).
+			Msg("Getting employee information")
 
-	zerolog.log.Debug().
-		Str("Name", "John").
-		Send()
+		zerolog.log.Debug().
+			Str("Name", "John").
+			Send()
+	*/
 }
