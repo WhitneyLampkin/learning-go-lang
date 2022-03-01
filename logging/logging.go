@@ -6,7 +6,6 @@ import (
 	"os"
 
 	"github.com/rs/zerolog"
-	"github.com/rs/zerolog/log"
 )
 
 func LogStandardMsg() {
@@ -55,11 +54,11 @@ func LogWithFramework() {
 func LogWithContext() {
 	zerolog.TimeFieldFormat = zerolog.TimeFormatUnix
 
-	log.Debug().
+	zerolog.log.Debug().
 		Int("EmployeeID", 1001).
 		Msg("Getting employee information")
 
-	log.Debug().
+	zerolog.log.Debug().
 		Str("Name", "John").
 		Send()
 }
