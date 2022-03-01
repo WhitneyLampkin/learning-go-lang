@@ -1,6 +1,9 @@
 package methods
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func DeclareMethod() {
 	t := triangle{3}
@@ -11,6 +14,14 @@ func DeclareMethod() {
 	t.doubleSize()
 	fmt.Println("Size:", t.size)
 	fmt.Println("Perimeter:", t.perimeter())
+
+	str := upperstring("Learning Go!")
+	fmt.Println(str)
+	fmt.Println(str.Upper())
+
+	tri := coloredTriangle{triangle{3}, "blue"}
+	fmt.Println("Size:", tri.size)
+	fmt.Println("Perimeter", tri.perimeter())
 }
 
 // Structs
@@ -20,6 +31,14 @@ type triangle struct {
 
 type square struct {
 	size int
+}
+
+type upperstring string
+
+// Methods can be embedded in methods like structs
+type coloredTriangle struct {
+	triangle
+	color string
 }
 
 // Methods
@@ -36,4 +55,9 @@ func (s square) perimeter() int {
 
 func (t *triangle) doubleSize() {
 	t.size *= 2
+}
+
+// hack to create a custom type from a basic type
+func (s upperstring) Upper() string {
+	return strings.ToUpper(string(s))
 }
