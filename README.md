@@ -103,5 +103,5 @@ Repository to store code snippets and notes from the following Microsoft Learn l
     - go get [PACKAGE_NAME]@master
         - Should update the go.sum and go.mod files
     - Now go build should work without producing an error
-    - go run main.go 1 2 
+    - go run main.go 1 2
         - SUCCESS!!! YAY!
