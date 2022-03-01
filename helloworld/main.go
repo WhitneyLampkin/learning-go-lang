@@ -15,6 +15,7 @@ import (
 	"github.com/whitneylampkin/learning-go-lang/functions"
 	"github.com/whitneylampkin/learning-go-lang/logging"
 	"github.com/whitneylampkin/learning-go-lang/maps"
+	"github.com/whitneylampkin/learning-go-lang/methods"
 	"github.com/whitneylampkin/learning-go-lang/slices"
 	"github.com/whitneylampkin/learning-go-lang/structs"
 	"github.com/whitneylampkin/learning-go-lang/variables"
@@ -134,4 +135,7 @@ func main() {
 	logging.LogPanicMsg()
 	logging.LogSetPrefix()
 	logging.LogToFile()
+
+	// Methods
+	methods.DeclareMethod()
 }
