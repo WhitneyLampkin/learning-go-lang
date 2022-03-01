@@ -21,7 +21,10 @@ func DeclareMethod() {
 
 	tri := coloredTriangle{triangle{3}, "blue"}
 	fmt.Println("Size:", tri.size)
-	fmt.Println("Perimeter", tri.perimeter())
+	fmt.Println("Perimeter (colored", tri.perimeter())
+	// Without the overloaded method, we could simply use tri.perimeter()
+	// However, in Go, this is how we override a method and still use the original if needed:
+	fmt.Println("Perimeter (normal)", tri.triangle.perimeter())
 }
 
 // Structs
@@ -57,7 +60,20 @@ func (t *triangle) doubleSize() {
 	t.size *= 2
 }
 
-// hack to create a custom type from a basic type
+// Hack to create a custom type from a basic type
 func (s upperstring) Upper() string {
 	return strings.ToUpper(string(s))
 }
+
+// Overload Methods
+
+// Use same method name with different receiver (coloredTriangle vs Triangle) to overload methods.
+func (t coloredTriangle) perimeter() int {
+	return t.size * 3 * 2
+}
+
+// Encapsulation in Methods
+
+// Encapsulation: Inaccessible methods to the caller of an object
+// In C#, we'd use public and private for encapsulation.
+// In go, public methods are capitalized and private methods are lowercase.
