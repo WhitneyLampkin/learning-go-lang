@@ -3,6 +3,7 @@ package logging
 import (
 	"fmt"
 	"log"
+	"os"
 )
 
 func LogStandardMsg() {
@@ -25,13 +26,22 @@ func LogPanicMsg() {
 }
 
 func LogSetPrefix() {
+	// log.SetPrefix is used to add a prefix to the log message
 	log.SetPrefix("main(): ")
 	log.Print("Hey, I'm a log!")
 	log.Fatal("Hey, I'm an error log!")
 }
 
 func LogToFile() {
+	file, err := os.OpenFile("info.log", os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0644)
+	if err != nil {
+		log.Fatal(err)
+	}
 
+	defer file.Close()
+
+	log.SetOutput(file)
+	log.Print("Hey, I'm a log!")
 }
 
 func LogWithFramework() {
