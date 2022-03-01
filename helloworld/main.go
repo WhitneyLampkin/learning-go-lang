@@ -131,9 +131,9 @@ func main() {
 
 	// Logging
 	logging.LogStandardMsg()
-	logging.LogFatalMsg()
-	logging.LogPanicMsg()
-	logging.LogSetPrefix()
+	// logging.LogFatalMsg()
+	// logging.LogPanicMsg()
+	//logging.LogSetPrefix()
 	logging.LogToFile()
 
 	// Methods
