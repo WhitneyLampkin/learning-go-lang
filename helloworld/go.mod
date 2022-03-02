@@ -20,3 +20,8 @@ require (
 )
 
 require github.com/whitneylampkin/learning-go-lang/methods v0.0.0-20220301212630-a24d5f69e0aa
+
+require (
+	github.com/whitneylampkin/learning-go-lang/geometry v0.0.0-20220301214614-c3c57745c049 // indirect
+	github.com/whitneylampkin/learning-go-lang/interfaces v0.0.0-20220301223118-e3137fee8e32 // indirect
+)

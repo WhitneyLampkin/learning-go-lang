@@ -138,4 +138,8 @@ func main() {
 
 	// Methods
 	methods.DeclareMethod()
+
+	// Interfaces
+
+	// Concurrency
 }

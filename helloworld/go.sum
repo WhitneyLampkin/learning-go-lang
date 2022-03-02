@@ -16,6 +16,10 @@ github.com/whitneylampkin/learning-go-lang/forloops v0.0.0-20220301213756-5e1a58
 github.com/whitneylampkin/learning-go-lang/forloops v0.0.0-20220301213756-5e1a58151fb6/go.mod h1:NiWXgpR07VK5oelUX8F6TEjsCOguZRMbPHL1EwTJYk4=
 github.com/whitneylampkin/learning-go-lang/functions v0.0.0-20220301213756-5e1a58151fb6 h1:6NYVNGm5rTZfoazFPDU3K//9YNKvDBGQpNKSrtHrflE=
 github.com/whitneylampkin/learning-go-lang/functions v0.0.0-20220301213756-5e1a58151fb6/go.mod h1:rA9lJtG/eqWoiJx5aiU93ewCf7Iz/3Vk/8B/j6LBx0I=
+github.com/whitneylampkin/learning-go-lang/geometry v0.0.0-20220301214614-c3c57745c049 h1:nSaDmg1ZS/uEI/Qs2vumZjZLnnbjWIODbzn80PeuK+g=
+github.com/whitneylampkin/learning-go-lang/geometry v0.0.0-20220301214614-c3c57745c049/go.mod h1:WI+cYaAuP6QguY89yB0iFt2vpYDF/QssFgQX+4IWhQA=
+github.com/whitneylampkin/learning-go-lang/interfaces v0.0.0-20220301223118-e3137fee8e32 h1:CFwgIA3fKEPj88rVc0h0Ig37Ct5mBW3/Hq9LN41WNss=
+github.com/whitneylampkin/learning-go-lang/interfaces v0.0.0-20220301223118-e3137fee8e32/go.mod h1:vihT9GQ35mXzNCES/kHSrIDr3GL+KvNk5zxqQ40obbA=
 github.com/whitneylampkin/learning-go-lang/logging v0.0.0-20220301212630-a24d5f69e0aa h1:MqiK2rWxBm3nwvKqQ2qzFWUBMzbhtcON7zY/FUHCzbA=
 github.com/whitneylampkin/learning-go-lang/logging v0.0.0-20220301212630-a24d5f69e0aa/go.mod h1:evUgpebyeRbAMDDYxJNA8ZGwLgV+7Vb+2RCKBwRq2+g=
 github.com/whitneylampkin/learning-go-lang/maps v0.0.0-20220301213756-5e1a58151fb6 h1:A7LK27rAtWUwLugLPua57xIydUlbtCrcLDsj5kU102g=
