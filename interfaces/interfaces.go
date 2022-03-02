@@ -10,6 +10,8 @@ import (
 )
 
 // Interface: An abstract type that only includes methods a concrete type must possess or implement.
+// Mechanism for grouping and naming related sets of methods: interfaces
+// Named collections of method signatures
 // Similar to a blueprint
 // Interfaces make Go code more flexible and extensible.
 

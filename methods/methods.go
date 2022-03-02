@@ -46,6 +46,8 @@ type coloredTriangle struct {
 
 // Methods
 
+// Go supports methods defined on struct types.
+
 // This method requires a receiver, the triangle struct.
 func (t triangle) perimeter() int {
 	return t.size * 3

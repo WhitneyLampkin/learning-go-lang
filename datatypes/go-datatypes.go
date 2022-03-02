@@ -76,6 +76,12 @@ func StringDataType() {
 	/*
 		"" - Used for strings
 		'' - Used for single characters and runes
+
+		Runes: https://go.dev/blog/strings
+			- Go's form of a "character"
+			- Integer that represents a Unicode code point
+			- To count runes in a string:
+				- fmt.Println("Rune count:", utf8.RuneCountInString(s))
 	*/
 
 	var firstName string = "John"
